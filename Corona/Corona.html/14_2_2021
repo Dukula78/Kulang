@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<!--
+
+  #created by:kavi rash
+  #posted on 25/05/2020
+  #don't copy it without permission
+  #Today is my birthday so i posted this code today
+  #see my cake code in the comment🙂🎂
+  #If you like it please upvote and leave a comment
+  #Thank you friends for seeing my code😊
+ 
+ -->
+<html>
+    <head>
+        <title>house</title>
+        <link href="design.css" rel="stylesheet" type="text/css"/>
+        <style>body
+{
+    background-color:#87CEEB;
+}
+h1{
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+}
+.building{
+    height:250px;
+    width:150px;
+    background-color:#cb4154;
+    position:absolute;
+    top:150px;
+    left:200px;
+}
+.door{ 
+    height:50px;
+    width:30px;
+    background-color:#c19a6b;
+    position:absolute;
+    top:350px;
+    left:260px;
+}
+.window1
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:180px;
+    left:220px;
+}
+.window2
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:180px;
+    left:290px;
+}
+.window3
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:230px;
+    left:220px;
+}
+.window4
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:230px;
+    left:290px;
+}
+.window5
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:280px;
+    left:220px;
+}
+.window6
+{
+    height:40px;
+    width:40px;
+    background-color:white;
+    position:absolute;
+    top:280px;
+    left:290px;
+}
+.glass11
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:182px;
+    left:222px;
+}
+.glass12
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:182px;
+    left:242px;
+}
+.glass13
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:202px;
+    left:222px;
+}
+.glass14
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:202px;
+    left:242px;
+}
+.glass21
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:182px;
+    left:292px;
+}
+.glass22
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:182px;
+    left:312px;
+}
+.glass23
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:202px;
+    left:292px;
+}
+.glass24
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:202px;
+    left:312px;
+}
+.glass31
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:232px;
+    left:222px;
+}
+.glass32
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:232px;
+    left:242px;
+}
+.glass33
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:252px;
+    left:222px;
+}
+.glass34
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:252px;
+    left:242px;
+}
+.glass41
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:232px;
+    left:292px;
+}
+.glass42
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:232px;
+    left:312px;
+}
+.glass43
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:252px;
+    left:292px;
+}
+.glass44
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:252px;
+    left:312px;
+}
+.glass51
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:282px;
+    left:222px;
+}
+
+.glass52
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:282px;
+    left:242px;
+}
+.glass53
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:302px;
+    left:222px;
+}
+.glass54
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:302px;
+    left:242px;
+}
+.glass61
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:282px;
+    left:292px;
+}
+.glass62
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:282px;
+    left:312px;
+}
+.glass63
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:302px;
+    left:292px;
+}
+.glass64
+{
+    height:15px;
+    width:15px;
+    background-color:#a8ccd7;
+    position:absolute;
+    top:302px;
+    left:312px;
+}
+.virus{
+     
+    animation-name:move;
+    animation-duration:2s;
+    animation-iteration-count:infinite ;
+}
+@keyframes move
+{
+    50%{
+          transform:translateY(50px);
+       }
+}
+.virusbody{
+    height:70px;
+    width:70px;
+    background-color:green;
+    border-radius:50px;
+    position:absolute;
+    left:50px;
+    top:180px;
+}
+.spike1{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:80px;
+    top:163px;
+}
+.spike2{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:110px;
+    top:175px;
+    transform:rotate(45deg);
+}
+.spike3{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:122px;
+    top:205px;
+    transform:rotate(90deg);
+}
+.spike4{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:110px;
+    top:238px;
+    transform:rotate(135deg);
+}
+.spike5{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:80px;
+    top:248px;
+}
+.spike6{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:48px;
+    top:236px;
+    transform:rotate(45deg);
+}
+.spike7{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:38px;
+    top:205px;
+    transform:rotate(90deg);
+}
+.spike8{
+    height:20px;
+    width:10px;
+    position:absolute;
+    background-color:green;
+    left:48px;
+    top:175px;
+    transform:rotate(135deg);
+}
+.eye1{
+    height:15px;
+    width:15px;
+    background-color:white;
+    position:absolute;
+    border-radius:15px;
+    top:200px;
+    left:65px;
+}
+.eye2{
+    height:15px;
+    width:15px;
+    background-color:white;
+    position:absolute;
+    border-radius:15px;
+    top:200px;
+    left:90px;
+}
+.iris1{
+    height:5px;
+    width:5px;
+    background-color:black;
+    position:absolute;
+    border-radius:5px;
+    top:207px;
+    left:70px;
+}
+.iris2{
+    height:5px;
+    width:5px;
+    background-color:black;
+    position:absolute;
+    border-radius:5px;
+    top:207px;
+    left:95px;
+}
+.eyebrow1{
+   height:15px;
+   width:5px; 
+   background-color:black;
+   position:absolute;
+   transform:rotate(120deg);
+   top:195px;
+   left:72px;
+}
+.eyebrow2{
+   height:15px;
+   width:5px; 
+   background-color:black;
+   position:absolute;
+   transform:rotate(60deg);
+   top:195px;
+   left:92px;
+}
+.mouth{
+    height:20px;
+    width:20px;
+    background-color:black;
+    border-radius:20px;
+    position:absolute;
+    left:75px;
+    top:220px;
+}
+.angry{
+    height:20px;
+    width:20px;
+    background-color:green;
+    border-radius:20px;
+    position:absolute;
+    left:75px;
+    top:225px;
+}
+.disk1{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:10px;
+    transform:rotatex(65deg);
+    position:absolute;
+    left:75px;
+    top:155px;
+}
+.disk2{
+    height:13px;
+    width:13px;
+    background-color:red;
+    border-radius:10px;
+    transform:skew(15deg,30deg);
+    position:absolute;
+    left:114px;
+    top:174px;
+    
+}
+.disk3{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:20px;
+    transform:rotateY(65deg);
+    position:absolute;
+    left:125px;
+    top:205px;
+    
+}
+.disk4{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:20px;
+    transform:rotate3d();
+    position:absolute;
+    left:110px;
+    top:243px;
+    transform: rotateX(60deg) rotateY(135deg) rotateZ(180deg);
+}
+.disk5{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:10px;
+    transform:rotatex(65deg);
+    position:absolute;
+    left:75px;
+    top:258px;
+}
+.disk6{
+    height:13px;
+    width:13px;
+    background-color:red;
+    border-radius:10px;
+    transform:skew(15deg,30deg);
+    position:absolute;
+    left:38px;
+    top:248px;
+}
+.disk7{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:20px;
+    transform:rotateY(65deg);
+    position:absolute;
+    left:25px;
+    top:205px;
+}
+.disk8{
+    height:20px;
+    width:20px;
+    background-color:red;
+    border-radius:20px;
+    transform:rotate3d();
+    position:absolute;
+    left:38px;
+    top:170px;
+    transform: rotateX(60deg) rotateY(135deg) rotateZ(180deg);
+}
+a{
+    position:absolute;
+    top:450px;
+    left:70px;
+    background-color:white;
+    color:black;
+    border-style:double ;
+    
+}
+
+            
+        </style>
+    </head>
+    <body>
+        <h1>STAY HOME STAY SAFE</h1>
+        <div class="building"></div> 
+        <div class="door"></div>
+        <div class="window1"></div>
+        <div class="window2"></div>
+        <div class="window3"></div>
+        <div class="window4"></div>
+        <div class="window5"></div>
+        <div class="window6"></div>
+        <div class="glass11"></div>
+        <div class="glass12"></div>
+        <div class="glass13"></div>
+        <div class="glass14"></div>
+        <div class="glass21"></div>
+        <div class="glass22"></div>
+        <div class="glass23"></div>
+        <div class="glass24"></div>
+        <div class="glass31"></div>
+        <div class="glass32"></div>
+        <div class="glass33"></div>
+        <div class="glass34"></div>
+        <div class="glass41"></div>
+        <div class="glass42"></div>
+        <div class="glass43"></div>
+        <div class="glass44"></div>
+        <div class="glass51"></div>
+        <div class="glass52"></div>
+        <div class="glass53"></div>
+        <div class="glass54"></div>
+        <div class="glass61"></div>
+        <div class="glass62"></div>
+        <div class="glass63"></div>
+        <div class="glass64"></div>
+   <div class="virus">
+        <div class="virusbody"></div>
+        <div class="spike1"></div>
+        <div class="spike2"></div>
+        <div class="spike3"></div>
+        <div class="spike4"></div>
+        <div class="spike5"></div>
+        <div class="spike6"></div>
+        <div class="spike7"></div>
+        <div class="spike8"></div>
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+        <div class="iris1"></div>
+        <div class="iris2"></div>
+        <div class="eyebrow1"></div>
+        <div class="eyebrow2"></div>
+        <div class="mouth"></div>
+        <div class="angry"></div>
+        <div class="disk1"></div>
+        <div class="disk2"></div>
+        <div class="disk3"></div>
+        <div class="disk4"></div>
+        <div class="disk5"></div>
+        <div class="disk6"></div>
+        <div class="disk7"></div>
+        <div class="disk8"></div>
+      </div>
+<a href="https://www.sololearn.com/Profile/9488256/?ref=app">CLICK HERE TO FOLLOW ME</   
+    </body>
+</html>
