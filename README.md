@@ -1,3 +1,4 @@
 # Hey!!!! welcome ti Dutty codes for everyone
 
-Dutty is mainly html, css and JavaScript focused
+
+Dutty codes is mainly focused on html, css and JavaScript
