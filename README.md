@@ -1,4 +1,4 @@
-# Hey!!!! welcome ti Dutty codes for everyone
+# Hey!!!! welcome to Dutty codes for everyone
 
 
-Dutty codes is mainly focused on html, css and JavaScript
+I will be showing you some of my works. Feel free to copy them and modify them in anyway that suits you. 
